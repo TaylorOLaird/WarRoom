@@ -353,3 +353,117 @@ Received Import Request.
   path: Assets/diningRoom/diningRoom/models/tables/RectangleTable/editableMaterial/woodMaterial.mat
   artifactKey: Guid(d80b3cba9b0c2dd468c4ed6798aa0f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/diningRoom/diningRoom/models/tables/RectangleTable/editableMaterial/woodMaterial.mat using Guid(d80b3cba9b0c2dd468c4ed6798aa0f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7613d5e7a4b315b58ebbfb2b8e7de12b') in 0.045865 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016262 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.73 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\taylo\Desktop\Unity Projects\WarRoom\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\taylo\Desktop\Unity Projects\WarRoom\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5f40cdb07bd44d76a23dad985a4ec283>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.168 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2170ms)
+		BeginReloadAssembly (531ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (217ms)
+		EndReloadAssembly (1478ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (472ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (672ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (433ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.83 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1120 unused Assets / (0.6 MB). Loaded Objects now: 4847.
+Memory consumption went from 178.2 MB to 177.7 MB.
+Total: 7.191600 ms (FindLiveObjects: 0.763000 ms CreateObjectMapping: 0.622500 ms MarkObjects: 5.174500 ms  DeleteObjects: 0.630100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2033.631763 seconds.
+  path: Assets/diningRoom/diningRoom
+  artifactKey: Guid(24717f5746e64fe0190b879f1f926d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom using Guid(24717f5746e64fe0190b879f1f926d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48409110d196f0a5bac1e6e32a024977') in 0.044681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.569849 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs
+  artifactKey: Guid(477dd39cab29530a5a52791b8ad29330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs using Guid(477dd39cab29530a5a52791b8ad29330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34720de25cad29c44623c892e37cd18d') in 0.019296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.589261 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table
+  artifactKey: Guid(cbb4de24e8f11d7eabf38cf7c078053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table using Guid(cbb4de24e8f11d7eabf38cf7c078053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a496136d54a50295b30a5c55daac87d6') in 0.021477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.163609 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table/brownWoodTable.prefab
+  artifactKey: Guid(d0365e01194ae1806badd86ea4b0eabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table/brownWoodTable.prefab using Guid(d0365e01194ae1806badd86ea4b0eabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a8fcb7d79a2eee404f787037c85dc1') in 0.182404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table/joinedLegsTable.prefab
+  artifactKey: Guid(202fb53fa581b517698e439808f034e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table/joinedLegsTable.prefab using Guid(202fb53fa581b517698e439808f034e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca34a72db5e63d01227f35cbc968a46') in 0.052213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table/twoRectangleLegs.prefab
+  artifactKey: Guid(850e8dc178402c4f18175884ac4385bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table/twoRectangleLegs.prefab using Guid(850e8dc178402c4f18175884ac4385bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4daa22ab198415d97926c001411dc33') in 0.051805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table/squareLegsTable.prefab
+  artifactKey: Guid(9a3baabfd46c547df99f8f0112e256a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table/squareLegsTable.prefab using Guid(9a3baabfd46c547df99f8f0112e256a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05a4ab21ad243926feb3a66399fd280') in 0.050994 seconds 
