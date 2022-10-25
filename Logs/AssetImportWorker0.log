@@ -413,8 +413,6 @@ Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 1120 unused Assets / (0.6 MB). Loaded Objects now: 4847.
 Memory consumption went from 178.2 MB to 177.7 MB.
 Total: 7.191600 ms (FindLiveObjects: 0.763000 ms CreateObjectMapping: 0.622500 ms MarkObjects: 5.174500 ms  DeleteObjects: 0.630100 ms)
-=======
-
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -469,188 +467,225 @@ Received Import Request.
   path: Assets/diningRoom/diningRoom/prefabs/table/squareLegsTable.prefab
   artifactKey: Guid(9a3baabfd46c547df99f8f0112e256a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/diningRoom/diningRoom/prefabs/table/squareLegsTable.prefab using Guid(9a3baabfd46c547df99f8f0112e256a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05a4ab21ad243926feb3a66399fd280') in 0.050994 seconds 
-=======
-  Time since last request: 157606.992911 seconds.
-  path: Assets/XR/XRGeneralSettings.asset
-  artifactKey: Guid(1a4c68ca72a83449f938d669337cb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/XRGeneralSettings.asset using Guid(1a4c68ca72a83449f938d669337cb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96632b8b47ed2aa4910e15c74391877a') in 0.043207 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 108.761867 seconds.
-  path: Assets/WarRoom/Scenes/New SceneTemplate.scenetemplate
-  artifactKey: Guid(d805d59f076d6f04e8b3f577e6f4bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WarRoom/Scenes/New SceneTemplate.scenetemplate using Guid(d805d59f076d6f04e8b3f577e6f4bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdadd672e46b11c82efdcb8623b6529') in 0.037259 seconds 
+  Time since last request: 595.773338 seconds.
+  path: Assets/WarRoom/Models
+  artifactKey: Guid(ea291b7c40dc7d54797efa7165d9404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarRoom/Models using Guid(ea291b7c40dc7d54797efa7165d9404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68541d11e0c4f302ae3da2370518ee44') in 0.022155 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.656921 seconds.
+  Time since last request: 70.919365 seconds.
+  path: Assets/WarRoom/Prefabs
+  artifactKey: Guid(eb6b4a8e9b01c484d8f14ce09efa4ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarRoom/Prefabs using Guid(eb6b4a8e9b01c484d8f14ce09efa4ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0e24884fad6b6ee6f71b4eb36e9c7b') in 0.020424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.930897 seconds.
+  path: Assets/ExampleAssets/Textures
+  artifactKey: Guid(2aab7ef822b354523935cb8a8fdb23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures using Guid(2aab7ef822b354523935cb8a8fdb23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80725ac90bf4bcddac5112a33420d27f') in 0.017700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.942350 seconds.
+  path: Assets/WarRoom/Textures
+  artifactKey: Guid(2daeee589fe8c4e4f8d3bb6dcaaa923c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarRoom/Textures using Guid(2daeee589fe8c4e4f8d3bb6dcaaa923c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebcf2275915f1844f74150d7213b09c') in 0.006601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.259255 seconds.
   path: Assets/WarRoom/Scenes/TheRoom.unity
   artifactKey: Guid(ed66cdc23ca87ab42bd66ac1b226a257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WarRoom/Scenes/TheRoom.unity using Guid(ed66cdc23ca87ab42bd66ac1b226a257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24635fe62240bc92803c50abd0ab685') in 0.006844 seconds 
+Start importing Assets/WarRoom/Scenes/TheRoom.unity using Guid(ed66cdc23ca87ab42bd66ac1b226a257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99b1cbba46371d91f3cc724a0587b77') in 0.020081 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 74.816666 seconds.
-  path: Assets/WarRoom/Materials/Floor.shader
-  artifactKey: Guid(46006c56a4250e647b2f20d38fb6e612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WarRoom/Materials/Floor.shader using Guid(46006c56a4250e647b2f20d38fb6e612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819e1836907babe6ac582498a020c623') in 0.013162 seconds 
+  Time since last request: 4385.927960 seconds.
+  path: Assets/WarRoom/Materials/New Material.mat
+  artifactKey: Guid(962f3ca57b8b4694288a2635d9f8615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarRoom/Materials/New Material.mat using Guid(962f3ca57b8b4694288a2635d9f8615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedd8a7f589fb446e15d1a0ae68b4aa3') in 0.282198 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 627.468512 seconds.
-  path: Assets/ExampleAssets/Models/XRControllerLeft.fbx
-  artifactKey: Guid(e48d18018a0ba46c283d9fd9c227e578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/XRControllerLeft.fbx using Guid(e48d18018a0ba46c283d9fd9c227e578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7067a3bd449c94d3e65c0b811ce96b5b') in 0.478030 seconds 
+  Time since last request: 42.973614 seconds.
+  path: Assets/diningRoom/diningRoom/models/lamps/wireframeLamps/wireframeLamps.fbx
+  artifactKey: Guid(a7d137ecedd7a986492830d63d77b3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/lamps/wireframeLamps/wireframeLamps.fbx using Guid(a7d137ecedd7a986492830d63d77b3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763b1d3d03cb221356ad583469c54864') in 0.330169 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.118919 seconds.
-  path: Assets/Oculus/OculusProjectConfig.asset
-  artifactKey: Guid(e14687d047270df4e93e255698654446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(e14687d047270df4e93e255698654446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58b6740e3f89ca984ef698babad0393') in 0.013605 seconds 
+  Time since last request: 17.415833 seconds.
+  path: Assets/WarRoom/Materials/Navy Blue.mat
+  artifactKey: Guid(962f3ca57b8b4694288a2635d9f8615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarRoom/Materials/Navy Blue.mat using Guid(962f3ca57b8b4694288a2635d9f8615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb26f867addef17d9a1757ae0ea8ef16') in 0.046849 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.087469 seconds.
-  path: Assets/Oculus/Interaction
-  artifactKey: Guid(55135e1bc8a58a94eb578cf012e2b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction using Guid(55135e1bc8a58a94eb578cf012e2b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6347ea87aa63ba1fe85176889e8fdd') in 0.006511 seconds 
+  Time since last request: 223.458848 seconds.
+  path: Assets/WarRoom/Materials/Seafoam Green.mat
+  artifactKey: Guid(e3353367666cb0045892eb44f9e18fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarRoom/Materials/Seafoam Green.mat using Guid(e3353367666cb0045892eb44f9e18fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245c7f3da5e46f935cc704fb8c25ff7f') in 0.048790 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.338052 seconds.
-  path: Assets/Oculus/VR/Oculus.VR.asmdef
-  artifactKey: Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Oculus.VR.asmdef using Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc825b6602c48da62a835e6d523089de') in 0.009181 seconds 
+  Time since last request: 305.907410 seconds.
+  path: Assets/WarRoom/Scenes/TheRoom.unity
+  artifactKey: Guid(ed66cdc23ca87ab42bd66ac1b226a257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarRoom/Scenes/TheRoom.unity using Guid(ed66cdc23ca87ab42bd66ac1b226a257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1f3c3aeb1e5e1b0f26d5c7c53c784b') in 0.004555 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.03 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\taylo\Desktop\Unity Projects\WarRoom\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\taylo\Desktop\Unity Projects\WarRoom\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5f40cdb07bd44d76a23dad985a4ec283>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.566 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6570ms)
+		BeginReloadAssembly (1038ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (52ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (378ms)
+		EndReloadAssembly (4965ms)
+			LoadAssemblies (587ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1707ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (227ms)
+			SetupLoadedEditorAssemblies (2270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (85ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (403ms)
+				ProcessInitializeOnLoadAttributes (1504ms)
+				ProcessInitializeOnLoadMethodAttributes (239ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 23.18 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (80.8 KB). Loaded Objects now: 4851.
+Memory consumption went from 171.7 MB to 171.6 MB.
+Total: 18.869600 ms (FindLiveObjects: 1.671300 ms CreateObjectMapping: 1.584000 ms MarkObjects: 14.919600 ms  DeleteObjects: 0.687300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.481589 seconds.
-  path: Assets/Oculus/VR/Prefabs/Cursor_Timer.prefab
-  artifactKey: Guid(5a7682c244a150b49965c007720bdbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/Cursor_Timer.prefab using Guid(5a7682c244a150b49965c007720bdbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da2bb4586eadf61e1b72a72aa29614e') in 0.040315 seconds 
+  Time since last request: 238.184288 seconds.
+  path: Assets/WarRoom/Materials/Seafoam Green.mat
+  artifactKey: Guid(e3353367666cb0045892eb44f9e18fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarRoom/Materials/Seafoam Green.mat using Guid(e3353367666cb0045892eb44f9e18fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee45d29f1f6c8475c9bfb928db3be0f7') in 0.122607 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_R.prefab
-  artifactKey: Guid(e201a24a09e942042b93390d0444d728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_R.prefab using Guid(e201a24a09e942042b93390d0444d728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37eb30141b41ea7be6f14af4f216aab0') in 0.195798 seconds 
+  Time since last request: 8.750747 seconds.
+  path: Assets/WarRoom/Materials/Cream.mat
+  artifactKey: Guid(de68a8dc9c0a68849beb5be56c6e0e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarRoom/Materials/Cream.mat using Guid(de68a8dc9c0a68849beb5be56c6e0e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584dc1dd673f28c4d278a6468ee20396') in 0.040829 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRRuntimeControllerPrefab.prefab
-  artifactKey: Guid(d0abdd77712724b409bdd185b622ac7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRRuntimeControllerPrefab.prefab using Guid(d0abdd77712724b409bdd185b622ac7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364c7f703b63b0adf78e8c74c3c69bad') in 0.015310 seconds 
+  Time since last request: 1558.671259 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs
+  artifactKey: Guid(477dd39cab29530a5a52791b8ad29330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs using Guid(477dd39cab29530a5a52791b8ad29330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed16c3bf70fe716fa6a749b4cb665087') in 0.013578 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRSceneManager.prefab
-  artifactKey: Guid(c813208e672e3074bbe118e1a9ee94fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRSceneManager.prefab using Guid(c813208e672e3074bbe118e1a9ee94fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f8a16dc72c3bbe403ca59fccfacc7b') in 0.013739 seconds 
+  Time since last request: 1.145929 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table
+  artifactKey: Guid(cbb4de24e8f11d7eabf38cf7c078053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table using Guid(cbb4de24e8f11d7eabf38cf7c078053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b725c600d8568fe60e34871bff930c') in 0.026006 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_L.prefab
-  artifactKey: Guid(c6a74181d4000004887343fb87b3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_L.prefab using Guid(c6a74181d4000004887343fb87b3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc3c06a35fb4e96260923aac467e93c') in 0.036393 seconds 
+  Time since last request: 0.024149 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table/brownWoodTable.prefab
+  artifactKey: Guid(d0365e01194ae1806badd86ea4b0eabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table/brownWoodTable.prefab using Guid(d0365e01194ae1806badd86ea4b0eabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232bfa51bb914211a9e461e296ba860f') in 0.051227 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.152002 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab
-  artifactKey: Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab using Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3a22a3885e0a2e9115611b5c47c9d4') in 0.537366 seconds 
+  Time since last request: 0.000064 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table/joinedLegsTable.prefab
+  artifactKey: Guid(202fb53fa581b517698e439808f034e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table/joinedLegsTable.prefab using Guid(202fb53fa581b517698e439808f034e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c1d6462386843bb2d12f86cca53e0a') in 0.034732 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.518960 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab
-  artifactKey: Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab using Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba7ff37205ab6b214c32300e06ce46a') in 0.096442 seconds 
+  Time since last request: 0.000079 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table/cylinderTable.prefab
+  artifactKey: Guid(67940304f10c38614878dfe3f7fc7016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table/cylinderTable.prefab using Guid(67940304f10c38614878dfe3f7fc7016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea585a5d6702f103e39d4d01e42ce6e') in 0.051304 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.540614 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab
-  artifactKey: Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab using Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5daff131a15adaa012edbdfd5a1f89') in 0.088134 seconds 
+  Time since last request: 0.000068 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table/twoRectangleLegs.prefab
+  artifactKey: Guid(850e8dc178402c4f18175884ac4385bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table/twoRectangleLegs.prefab using Guid(850e8dc178402c4f18175884ac4385bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dd2014fd92d04f158dde3292c8abd5') in 0.051346 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1630.418234 seconds.
-  path: Assets/Free/Wooden Floor Pack
-  artifactKey: Guid(d948772c8e7c5df41818c66f72ed2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free/Wooden Floor Pack using Guid(d948772c8e7c5df41818c66f72ed2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6714f32828e7166bc450d91730d07cee') in 0.017973 seconds 
+  Time since last request: 0.000063 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table/RectangleTable.prefab
+  artifactKey: Guid(3e760b57b983a98a78f4f5bcca87b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table/RectangleTable.prefab using Guid(3e760b57b983a98a78f4f5bcca87b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb1128da366918801cd5d43e513f7be') in 0.049882 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.309723 seconds.
-  path: Assets/Free/Wooden Floor Pack/Materials
-  artifactKey: Guid(823577bfc22dbd8408bcd784df97cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free/Wooden Floor Pack/Materials using Guid(823577bfc22dbd8408bcd784df97cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c6fb10e338511b8baef1fea2f38f60') in 0.015367 seconds 
+  Time since last request: 0.000080 seconds.
+  path: Assets/diningRoom/diningRoom/prefabs/table/squareTable.prefab
+  artifactKey: Guid(58b8e9c74f874e15c9e15721c4e12d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/prefabs/table/squareTable.prefab using Guid(58b8e9c74f874e15c9e15721c4e12d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a209aa98c72523dcb6e16f5afa21889') in 0.041706 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.058495 seconds.
-  path: Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 2.mat
-  artifactKey: Guid(7e57d6bb6a6a1b74795062b56af48f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 2.mat using Guid(7e57d6bb6a6a1b74795062b56af48f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46e069744372aa2a10b8dbea61d0865') in 0.681939 seconds 
+  Time since last request: 35.520479 seconds.
+  path: Assets/WarRoom/Materials/Cream.mat
+  artifactKey: Guid(de68a8dc9c0a68849beb5be56c6e0e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarRoom/Materials/Cream.mat using Guid(de68a8dc9c0a68849beb5be56c6e0e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3892dda8b8e899248febe1f2431f6865') in 0.045633 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2497.212460 seconds.
-  path: Assets/diningRoom/diningRoom/models/tableCenter
-  artifactKey: Guid(39e4912988dd5aa8389651cba775700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tableCenter using Guid(39e4912988dd5aa8389651cba775700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5e046883a5add3b52e30f83ebd0eda') in 0.021821 seconds 
+  Time since last request: 514.037968 seconds.
+  path: Assets/ExampleAssets/Materials
+  artifactKey: Guid(7e2c000a47cf74a35ba28043f5839c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials using Guid(7e2c000a47cf74a35ba28043f5839c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a69abcc307f7b56fffddadefc993d4') in 0.007274 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.482745 seconds.
-  path: Assets/diningRoom/diningRoom/models/tables/brownWoodTable
-  artifactKey: Guid(c0ecadd8fc70977168addc9c91b9ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tables/brownWoodTable using Guid(c0ecadd8fc70977168addc9c91b9ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd51bab2646a7e3e488dba3308d2420') in 0.021384 seconds 
+  Time since last request: 0.737575 seconds.
+  path: Assets/ExampleAssets/Materials/Controller.mat
+  artifactKey: Guid(3d2e36aacd7dc084b96e0755f1af4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Controller.mat using Guid(3d2e36aacd7dc084b96e0755f1af4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e991142820e8624d2cd3b14eab39a09b') in 0.033999 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.318858 seconds.
-  path: Assets/diningRoom/diningRoom/models/tables/brownWoodTable/brownWoodTable.fbx
-  artifactKey: Guid(28f8f3ad57ca7a50dab5d12a42a0ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tables/brownWoodTable/brownWoodTable.fbx using Guid(28f8f3ad57ca7a50dab5d12a42a0ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5239fb5c9526a136f9454d44ef5403d9') in 0.101775 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/ExampleAssets/Materials/Skybox Light.mat
+  artifactKey: Guid(3a408e788dcbed6429c8d22a01b32a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Skybox Light.mat using Guid(3a408e788dcbed6429c8d22a01b32a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e72bb7efd815877f015c45f592ed81') in 0.028752 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.109277 seconds.
-  path: Assets/diningRoom/diningRoom/models/tables/brownWoodTable/editableMaterial
-  artifactKey: Guid(a2a1d18ec3155e9bc862857cab4c2f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tables/brownWoodTable/editableMaterial using Guid(a2a1d18ec3155e9bc862857cab4c2f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4e03996b8ae1aa4241df773b685482') in 0.022322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.896839 seconds.
-  path: Assets/diningRoom/diningRoom/models/tables/squareTable
-  artifactKey: Guid(a6437e75c72e0f4149146b858b141967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tables/squareTable using Guid(a6437e75c72e0f4149146b858b141967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6715be3f91d16ca5dca43811f57f663') in 0.021775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034976 seconds.
-  path: Assets/diningRoom/diningRoom/models/tables/squareTable/squareTable.fbx
-  artifactKey: Guid(46f6bb81d0d8bcb8183cf916b82dffd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tables/squareTable/squareTable.fbx using Guid(46f6bb81d0d8bcb8183cf916b82dffd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0848336a38a3e3e3248114dd4f435717') in 0.064372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.574685 seconds.
-  path: Assets/diningRoom/diningRoom/models/tables/squareLegsTable
-  artifactKey: Guid(9954fd86af5a4973fba83ed25ba3fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tables/squareLegsTable using Guid(9954fd86af5a4973fba83ed25ba3fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b70dcfe391f942b63f20bc0c2d06282') in 0.021157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.272683 seconds.
-  path: Assets/diningRoom/diningRoom/models/tables/squareLegsTable/squareLegsTable.fbx
-  artifactKey: Guid(a5b5ebd6268979ffd93401ec8b2cc18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tables/squareLegsTable/squareLegsTable.fbx using Guid(a5b5ebd6268979ffd93401ec8b2cc18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd3ead0013ca4f2f5afc1c27780ac28') in 0.078606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.415976 seconds.
-  path: Assets/diningRoom/diningRoom/models/tables/RectangleTable
-  artifactKey: Guid(e7e25ad1d1dc09cf9903245c58228f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tables/RectangleTable using Guid(e7e25ad1d1dc09cf9903245c58228f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209f92827d9ddb91fcaba41cd0d92636') in 0.021016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.969795 seconds.
-  path: Assets/diningRoom/diningRoom/models/tables/RectangleTable/RectangleTable.fbx
-  artifactKey: Guid(af03a12e181f89893bcda8c4de3317b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tables/RectangleTable/RectangleTable.fbx using Guid(af03a12e181f89893bcda8c4de3317b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8e55e5cfe7b924546ec29c24038b41') in 0.072521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.090542 seconds.
-  path: Assets/diningRoom/diningRoom/models/tables/RectangleTable/editableMaterial
-  artifactKey: Guid(7b52b32afe56477a5a9602cb6e174bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tables/RectangleTable/editableMaterial using Guid(7b52b32afe56477a5a9602cb6e174bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa83f9d434a434a73ac2d833fd09fa6') in 0.004653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.520653 seconds.
-  path: Assets/diningRoom/diningRoom/models/tables/RectangleTable/editableMaterial/woodMaterial.mat
-  artifactKey: Guid(d80b3cba9b0c2dd468c4ed6798aa0f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diningRoom/diningRoom/models/tables/RectangleTable/editableMaterial/woodMaterial.mat using Guid(d80b3cba9b0c2dd468c4ed6798aa0f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7613d5e7a4b315b58ebbfb2b8e7de12b') in 0.045865 seconds 
+  Time since last request: 4.338914 seconds.
+  path: Assets/ExampleAssets/Models
+  artifactKey: Guid(4a0dd92c4753243b18b4100cf4991b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models using Guid(4a0dd92c4753243b18b4100cf4991b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db20ab0114199690f5053c1bf1416a04') in 0.003600 seconds 
