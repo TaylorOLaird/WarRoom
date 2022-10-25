@@ -2,4 +2,9 @@
 .vscode/
 Library/
 Temp/
+<<<<<<< HEAD
 Assets/diningRoom
+=======
+Logs/
+Assets/diningRoom/
+>>>>>>> 8fcf0d3 (test fixing the gitignore)
