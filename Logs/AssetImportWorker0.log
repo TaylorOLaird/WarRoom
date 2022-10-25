@@ -263,3 +263,93 @@ Received Import Request.
   path: Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab
   artifactKey: Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab using Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5daff131a15adaa012edbdfd5a1f89') in 0.088134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1630.418234 seconds.
+  path: Assets/Free/Wooden Floor Pack
+  artifactKey: Guid(d948772c8e7c5df41818c66f72ed2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack using Guid(d948772c8e7c5df41818c66f72ed2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6714f32828e7166bc450d91730d07cee') in 0.017973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.309723 seconds.
+  path: Assets/Free/Wooden Floor Pack/Materials
+  artifactKey: Guid(823577bfc22dbd8408bcd784df97cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Materials using Guid(823577bfc22dbd8408bcd784df97cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c6fb10e338511b8baef1fea2f38f60') in 0.015367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058495 seconds.
+  path: Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 2.mat
+  artifactKey: Guid(7e57d6bb6a6a1b74795062b56af48f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 2.mat using Guid(7e57d6bb6a6a1b74795062b56af48f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46e069744372aa2a10b8dbea61d0865') in 0.681939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2497.212460 seconds.
+  path: Assets/diningRoom/diningRoom/models/tableCenter
+  artifactKey: Guid(39e4912988dd5aa8389651cba775700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tableCenter using Guid(39e4912988dd5aa8389651cba775700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5e046883a5add3b52e30f83ebd0eda') in 0.021821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.482745 seconds.
+  path: Assets/diningRoom/diningRoom/models/tables/brownWoodTable
+  artifactKey: Guid(c0ecadd8fc70977168addc9c91b9ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tables/brownWoodTable using Guid(c0ecadd8fc70977168addc9c91b9ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd51bab2646a7e3e488dba3308d2420') in 0.021384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.318858 seconds.
+  path: Assets/diningRoom/diningRoom/models/tables/brownWoodTable/brownWoodTable.fbx
+  artifactKey: Guid(28f8f3ad57ca7a50dab5d12a42a0ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tables/brownWoodTable/brownWoodTable.fbx using Guid(28f8f3ad57ca7a50dab5d12a42a0ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5239fb5c9526a136f9454d44ef5403d9') in 0.101775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109277 seconds.
+  path: Assets/diningRoom/diningRoom/models/tables/brownWoodTable/editableMaterial
+  artifactKey: Guid(a2a1d18ec3155e9bc862857cab4c2f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tables/brownWoodTable/editableMaterial using Guid(a2a1d18ec3155e9bc862857cab4c2f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4e03996b8ae1aa4241df773b685482') in 0.022322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.896839 seconds.
+  path: Assets/diningRoom/diningRoom/models/tables/squareTable
+  artifactKey: Guid(a6437e75c72e0f4149146b858b141967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tables/squareTable using Guid(a6437e75c72e0f4149146b858b141967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6715be3f91d16ca5dca43811f57f663') in 0.021775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034976 seconds.
+  path: Assets/diningRoom/diningRoom/models/tables/squareTable/squareTable.fbx
+  artifactKey: Guid(46f6bb81d0d8bcb8183cf916b82dffd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tables/squareTable/squareTable.fbx using Guid(46f6bb81d0d8bcb8183cf916b82dffd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0848336a38a3e3e3248114dd4f435717') in 0.064372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.574685 seconds.
+  path: Assets/diningRoom/diningRoom/models/tables/squareLegsTable
+  artifactKey: Guid(9954fd86af5a4973fba83ed25ba3fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tables/squareLegsTable using Guid(9954fd86af5a4973fba83ed25ba3fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b70dcfe391f942b63f20bc0c2d06282') in 0.021157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.272683 seconds.
+  path: Assets/diningRoom/diningRoom/models/tables/squareLegsTable/squareLegsTable.fbx
+  artifactKey: Guid(a5b5ebd6268979ffd93401ec8b2cc18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tables/squareLegsTable/squareLegsTable.fbx using Guid(a5b5ebd6268979ffd93401ec8b2cc18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd3ead0013ca4f2f5afc1c27780ac28') in 0.078606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.415976 seconds.
+  path: Assets/diningRoom/diningRoom/models/tables/RectangleTable
+  artifactKey: Guid(e7e25ad1d1dc09cf9903245c58228f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tables/RectangleTable using Guid(e7e25ad1d1dc09cf9903245c58228f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209f92827d9ddb91fcaba41cd0d92636') in 0.021016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.969795 seconds.
+  path: Assets/diningRoom/diningRoom/models/tables/RectangleTable/RectangleTable.fbx
+  artifactKey: Guid(af03a12e181f89893bcda8c4de3317b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tables/RectangleTable/RectangleTable.fbx using Guid(af03a12e181f89893bcda8c4de3317b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8e55e5cfe7b924546ec29c24038b41') in 0.072521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.090542 seconds.
+  path: Assets/diningRoom/diningRoom/models/tables/RectangleTable/editableMaterial
+  artifactKey: Guid(7b52b32afe56477a5a9602cb6e174bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tables/RectangleTable/editableMaterial using Guid(7b52b32afe56477a5a9602cb6e174bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa83f9d434a434a73ac2d833fd09fa6') in 0.004653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.520653 seconds.
+  path: Assets/diningRoom/diningRoom/models/tables/RectangleTable/editableMaterial/woodMaterial.mat
+  artifactKey: Guid(d80b3cba9b0c2dd468c4ed6798aa0f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diningRoom/diningRoom/models/tables/RectangleTable/editableMaterial/woodMaterial.mat using Guid(d80b3cba9b0c2dd468c4ed6798aa0f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7613d5e7a4b315b58ebbfb2b8e7de12b') in 0.045865 seconds 
