@@ -6327,7 +6327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AlphaButtonClickMask_IsRaycastLocationVa
 		L_49 = Sprite_get_texture_mEEA6640C1B5D38F84CB64C775B201D7D9F48E045(L_48, NULL);
 		NullCheck(L_49);
 		int32_t L_50;
-		L_50 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_49);
+		L_50 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_49);
 		*((float*)L_45) = (float)((float)(L_46/((float)L_50)));
 		// uv.y /= _image.sprite.texture.height;
 		float* L_51 = (&(&V_3)->___y_1);
@@ -6342,7 +6342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AlphaButtonClickMask_IsRaycastLocationVa
 		L_56 = Sprite_get_texture_mEEA6640C1B5D38F84CB64C775B201D7D9F48E045(L_55, NULL);
 		NullCheck(L_56);
 		int32_t L_57;
-		L_57 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_56);
+		L_57 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_56);
 		*((float*)L_52) = (float)((float)(L_53/((float)L_57)));
 		// Color c = _image.sprite.texture.GetPixelBilinear(uv.x, uv.y);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_58 = __this->____image_4;
