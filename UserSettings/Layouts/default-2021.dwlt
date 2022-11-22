@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1212
     height: 884
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 76
+  controlID: 79
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 77
+  controlID: 80
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -283,9 +283,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7a870000
-      m_LastClickedID: 34682
-      m_ExpandedIDs: caf5ffffd2f5ffff08faffff768700007a870000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 96d9ffffe6d9ffff04daffffb8ddffff08deffff26deffffe0e1ffff30e2ffff4ee2ffff44e3ffff98e8fffff0e8ffff0ee9ffff00edffff60edffffaef4ffffc8f6ffff46f8ffffa2890000ae890000ba890000e6890000749d0000809d00008c9d0000b89d0000a0a10000c6a10000d2a10000dea100000aa20000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -535,9 +535,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.42485768, y: 3.5447512, z: -7.304874}
+    m_Target: {x: -0.35177287, y: 9.644695, z: 5.8986363}
     speed: 2
-    m_Value: {x: -0.42485768, y: 3.5447512, z: -7.304874}
+    m_Value: {x: -0.35177287, y: 9.644695, z: 5.8986363}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -584,13 +584,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.433502, y: -0.00924281, z: 0.0037246903, w: 0.9014952}
+    m_Target: {x: 0.026748812, y: -0.026082778, z: -0.00046520776, w: 0.9997446}
     speed: 2
-    m_Value: {x: 0.43469796, y: -0.009233896, z: 0.003737231, w: 0.9005213}
+    m_Value: {x: 0.026737649, y: -0.027570166, z: -0.00042489602, w: 0.99926215}
   m_Size:
-    m_Target: 0.6812456
+    m_Target: 3.6757836
     speed: 2
-    m_Value: 8.336036
+    m_Value: 3.848988
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -780,7 +780,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SearchFilter:
-    m_NameFilter: skybox
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -792,22 +792,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Standard Assets/Environment/Water/Water
+    - Assets/WarRoom/Assets/Scripts
     m_Globs: []
-    m_OriginalText: skybox
+    m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Standard Assets/Environment/Water/Water
+  - Assets/WarRoom/Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\de509865\Desktop\Unity projects\WarRoom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1421}
-    m_SelectedIDs: 0e8d0000
-    m_LastClickedID: 36110
-    m_ExpandedIDs: 00000000a08c0000a28c0000a48c0000a68c0000a88c0000aa8c0000ac8c0000ae8c0000b08c0000b28c0000b48c0000b68c0000b88c0000ba8c0000bc8c0000be8c0000c08c0000c28c0000c48c0000c68c0000c88c0000ca8c0000cc8c0000ce8c0000d08c0000ec8c0000f28c0000728d0000748d0000768d0000788d00007a8d0000be8d00006a8e00006c8e000000ca9a3b
+    scrollPos: {x: 0, y: 2433}
+    m_SelectedIDs: de9d0000
+    m_LastClickedID: 40414
+    m_ExpandedIDs: 00000000f0850000f2850000f4850000f6850000f8850000fa850000fc850000fe85000000860000028600000486000006860000088600000a8600000c8600000e86000010860000128600001486000016860000188600001a8600001c8600001e86000020860000228600002486000026860000288600002a8600002c8600002e86000030860000328600003486000036860000388600003a8600003c8600003e86000040860000428600004486000046860000488600004a8600004c8600004e8600005e870000d09d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -835,7 +835,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a08c0000a28c0000a48c0000a68c0000a88c0000aa8c0000ac8c0000ae8c0000b08c0000b28c0000b48c0000b68c0000b88c0000ba8c0000bc8c0000be8c0000c08c0000c28c0000c48c0000c68c0000c88c0000ca8c0000cc8c0000ce8c0000d08c0000
+    m_ExpandedIDs: 00000000f0850000f2850000f4850000f6850000f8850000fa850000fc850000fe85000000860000028600000486000006860000088600000a8600000c8600000e86000010860000128600001486000016860000188600001a8600001c8600001e86000020860000228600002486000026860000288600002a8600002c8600002e86000030860000328600003486000036860000388600003a8600003c8600003e86000040860000428600004486000046860000488600004a8600004c8600004e860000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
