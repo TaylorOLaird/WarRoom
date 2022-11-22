@@ -556,8 +556,6 @@ struct SampleUI_tBB9B84AF580D5357F4523D7E501B1DDFAA18BA5F;
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
 // UnityEngine.UI.Selectable
 struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
-// ShipMovement
-struct ShipMovement_t5182296277D5168B29F32AC306FC16DC43F6841C;
 // SimpleCapsuleWithStickMovement
 struct SimpleCapsuleWithStickMovement_t920D8E87DA5F0C4A80703D194A390183D5A68F2C;
 // UnityEngine.UI.Slider
@@ -5286,11 +5284,6 @@ struct SampleUI_tBB9B84AF580D5357F4523D7E501B1DDFAA18BA5F  : public MonoBehaviou
 	bool ___inMenu_7;
 };
 
-// ShipMovement
-struct ShipMovement_t5182296277D5168B29F32AC306FC16DC43F6841C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
 // SimpleCapsuleWithStickMovement
 struct SimpleCapsuleWithStickMovement_t920D8E87DA5F0C4A80703D194A390183D5A68F2C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -9050,38 +9043,6 @@ IL_009f:
 }
 // System.Void WaterReflection::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterReflection__ctor_m9E43D7FFE829D81B2D6B290985815779F495C758 (WaterReflection_t59B75D355AF4B5367D9273832B3581710859F585* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void ShipMovement::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShipMovement_Start_m661EFECBF065F2A6F83B8F9530CEB733C4BBE0FD (ShipMovement_t5182296277D5168B29F32AC306FC16DC43F6841C* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void ShipMovement::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShipMovement_Update_m89570A31777673181F25A3206B38F1984DC1DAC9 (ShipMovement_t5182296277D5168B29F32AC306FC16DC43F6841C* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void ShipMovement::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShipMovement__ctor_mCAA01E0F49241DA312AB32000E4B96F090ADAA0E (ShipMovement_t5182296277D5168B29F32AC306FC16DC43F6841C* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
