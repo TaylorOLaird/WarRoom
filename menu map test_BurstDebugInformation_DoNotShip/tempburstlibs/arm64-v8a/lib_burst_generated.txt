@@ -118,13 +118,17 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_LEGACY_INPUT_MANAGER
 --compilation-defines=CROSS_PLATFORM_INPUT
 --compilation-defines=MOBILE_INPUT
+--compilation-defines=INPUT_SYSTEM_1_4_OR_NEWER
+--compilation-defines=INPUT_SYSTEM_1_1_OR_NEWER
+--compilation-defines=ANIMATION_MODULE_PRESENT
+--compilation-defines=PHYSICS2D_MODULE_PRESENT
+--compilation-defines=CSHARP_7_OR_LATER
+--compilation-defines=CSHARP_7_3_OR_NEWER
 --compilation-defines=PACKAGE_PHYSICS
 --compilation-defines=PACKAGE_PHYSICS2D
 --compilation-defines=PACKAGE_TILEMAP
 --compilation-defines=PACKAGE_ANIMATION
 --compilation-defines=PACKAGE_UITOOLKIT
---compilation-defines=CSHARP_7_OR_LATER
---compilation-defines=CSHARP_7_3_OR_NEWER
 --compilation-defines=USING_XR_MANAGEMENT
 --compilation-defines=USING_XR_SDK_OCULUS
 --compilation-defines=ENABLE_VR_MODULE
@@ -153,10 +157,6 @@ Library: lib_burst_generated
 --compilation-defines=USING_URP
 --compilation-defines=USING_MRC_COMPATIBLE_URP_VERSION
 --compilation-defines=OVR_UNITY_ASSET_STORE
---compilation-defines=INPUT_SYSTEM_1_4_OR_NEWER
---compilation-defines=INPUT_SYSTEM_1_1_OR_NEWER
---compilation-defines=ANIMATION_MODULE_PRESENT
---compilation-defines=PHYSICS2D_MODULE_PRESENT
 --compilation-defines=ENABLE_SPRITESHAPE_BURST
 --compilation-defines=INCLUDE_PHYSICS_MODULE
 --compilation-defines=INCLUDE_UGUI
@@ -166,6 +166,7 @@ Library: lib_burst_generated
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --generate-link-xml=Temp\burst.link.xml
 --output=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\tempburstlibs\arm64-v8a\lib_burst_generated
+--root-assembly=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\Data\Managed\Unity.XR.Interaction.Toolkit.dll
 --root-assembly=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
 --root-assembly=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\Data\Managed\Oculus.Platform.dll
 --root-assembly=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
@@ -184,7 +185,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\Data\Managed\Oculus.VR.dll
 --root-assembly=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 --root-assembly=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\Data\Managed\Assembly-CSharp-firstpass.dll
---root-assembly=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\Data\Managed\Unity.XR.Interaction.Toolkit.dll
 --root-assembly=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\Data\Managed\VoiceSDK.Dictation.Runtime.dll
 --root-assembly=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=C:\Users\de509865\Desktop\Unity projects\WarRoom\Temp\StagingArea\Data\Managed\VoiceSDK.Runtime.dll
