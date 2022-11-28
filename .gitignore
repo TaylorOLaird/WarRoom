@@ -1,4 +1,14 @@
+# Complied Source #
+###################
+*.com
+*.class
+*.dll
 [Ll]ibrary/
-Temp/
+[Tt]emp/
 [Ll]ogs/
+[Bb]uilds/
+[Bb]uild/
+[Oo]bj
+[Mm]emoryCaptures
 Assets/Oculus/
+Assets/AssetStoreTools*
