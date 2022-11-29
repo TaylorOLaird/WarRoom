@@ -24,7 +24,7 @@ public class Game_Grid : MonoBehaviour
     {
 
         gameGrid = new GameObject[height, width];
-        GridCell gc;
+        // GridCell gc;
         if(gridCellPrefab == null){
             Debug.LogError("ERROR: Grid Cell Prefab on the Game Grid Prefab is not assigned");
         }
@@ -34,7 +34,7 @@ public class Game_Grid : MonoBehaviour
             for (int x = 0; x < width; x++){
                 //create a new gridspace object for each cell (X, Z, Y)
                 // gameGrid[x, y] = Instantiate(gridCellPrefab, new Vector3(x * GridSpaceSize/10, y * GridSpaceSize/10), Quaternion.identity);
-                gameGrid[x, y] = Instantiate(gridCellPrefab, new Vector3(x * GridSpaceSize/10 - 1.453159f, 0 - 0.7556f, y * GridSpaceSize/10 - 1.445439f), Quaternion.Euler(new Vector3(0, 0, 0)));
+                gameGrid[x, y] = Instantiate(gridCellPrefab, new Vector3(x * GridSpaceSize/10 - 1.691853f, 0 - 0.6086f, y * GridSpaceSize/10 - 1.377926f), Quaternion.Euler(new Vector3(0, 0, 0)));
                 // spawn under gamegrid
                 // gameGrid[x, y].GetComponentInChildren<GridCell>()
                 gameGrid[x, y].transform.parent = transform;
