@@ -12,6 +12,9 @@ public class ActivateRay : MonoBehaviour
     public InputActionProperty leftActivate;
     public InputActionProperty rightActivate;
     
+    public InputActionProperty leftCancel;
+    public InputActionProperty rightCancel;
+    
     // // Start is called before the first frame update
     // void Start()
     // {
@@ -21,7 +24,7 @@ public class ActivateRay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        leftRay.SetActive(leftActivate.action.ReadValue<float>() > 0.1f);
-        rightRay.SetActive(rightActivate.action.ReadValue<float>() > 0.1f);
+        leftRay.SetActive(leftCancel.action.ReadValue<float>() == 0 && leftActivate.action.ReadValue<float>() > 0.1f);
+        rightRay.SetActive(rightCancel.action.ReadValue<float>() == 0 && rightActivate.action.ReadValue<float>() > 0.1f);
     }
 }
