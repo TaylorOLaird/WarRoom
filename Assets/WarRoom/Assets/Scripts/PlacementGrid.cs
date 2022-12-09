@@ -14,6 +14,12 @@ public class PlacementGrid : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {        
+        CreateSmallGrid();
+    }
+
+    // Update is called once per frame
+    public void CreateSmallGrid()
+    {
         gameGridSmall = new GameObject[height, width];
 
         if(gridElementPrefab == null){
@@ -26,20 +32,16 @@ public class PlacementGrid : MonoBehaviour
             for (int y = 0; y < 13; y++)
             {
                 // create a new grid element
-                gameGridSmall[x,y] = Instantiate(gridElementPrefab, new Vector3(x * GridSpaceSize/10, 0, y * GridSpaceSize/10), Quaternion.identity);
+                gameGridSmall[x,y] = Instantiate(gridElementPrefab);
+                gameGridSmall[x,y].transform.parent = transform;
+                gameGridSmall[x,y].transform.localPosition = new Vector3(x * GridSpaceSize/10, 0, y * GridSpaceSize/10);
+                gameGridSmall[x,y].transform.rotation = Quaternion.identity;
+
+                if(gameGridSmall[x, y].GetComponent<GridCell>() == null){
+                    Debug.LogError("No component Found");
+                }
 
             }
         }
-        
-
-        
-
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
