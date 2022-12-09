@@ -8,9 +8,9 @@ public class InstantiateShip : MonoBehaviour
     public GameObject shipPrefab;
 
     // Update is called once per frame
-    void Update()
+    void Click()
     {
         // object position, rotation
-        Instantiate(shipPrefab, transform.position, Quaterion.identity);
+        Instantiate(shipPrefab, transform.position, Quaternion.identity);
     }
 }
