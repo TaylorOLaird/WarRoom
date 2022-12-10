@@ -29,7 +29,9 @@ public class TileScript : MonoBehaviour
         if(Physics.Raycast(ray, out hit)){
             if(Input.GetMouseButtonDown(0) && hit.collider.gameObject.name == gameObject.name){
 
-                
+                if(missleHit == false){
+                    gameManager.TileClicked(hit.collider.gameObject);
+                }
 
                 // //if the tile is not occupied
                 // if(!gameManager.gridArray[hit.transform.GetComponent<GridCell>().GetPosition().x, hit.transform.GetComponent<GridCell>().GetPosition().y].isOccupied){
