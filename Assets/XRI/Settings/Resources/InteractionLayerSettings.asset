@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - 
-  - 
-  - 
-  - 
+  - controller
+  - own ships
+  - buttons
+  - enemy ships
   - 
   - 
   - 

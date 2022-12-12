@@ -7,7 +7,7 @@ public class Game_Grid : MonoBehaviour
 
     private int height = 12;
     private int width = 12;
-    private float GridSpaceSize = 2.5f;
+    private float gridSpaceSize = 2.5f;
 
     [SerializeField] private GameObject gridCellPrefab;
     private GameObject[,] gameGrid;
@@ -33,25 +33,21 @@ public class Game_Grid : MonoBehaviour
         for (int y = 0; y < height; y++){
             for (int x = 0; x < width; x++){
                 //create a new gridspace object for each cell (X, Z, Y)
-                // gameGrid[x, y] = Instantiate(gridCellPrefab, new Vector3(x * GridSpaceSize/10, y * GridSpaceSize/10), Quaternion.identity);
-                gameGrid[x, y] = Instantiate(gridCellPrefab, new Vector3(x * GridSpaceSize/10 - 1.691853f, 0 - 0.6086f, y * GridSpaceSize/10 - 1.377926f), Quaternion.Euler(new Vector3(0, 0, 0)));
-                // spawn under gamegrid
-                // gameGrid[x, y].GetComponentInChildren<GridCell>()
+                gameGrid[x, y] = Instantiate(gridCellPrefab, new Vector3(x * gridSpaceSize/10 - 1.691853f, 0 - 0.6086f, y * gridSpaceSize/10 - 1.377926f), Quaternion.Euler(new Vector3(0, 0, 0)));
+                // every cell has its own location that we can call if needed
+                gameGrid[x, y].GetComponent<GridCell>().SetPosition(x, y);
                 gameGrid[x, y].transform.parent = transform;
-                gameGrid[x, y].gameObject.name = "Grid Space ( X: " + (x * GridSpaceSize/10).ToString() + " , Y: " + y.ToString() + ")";
-                if(gameGrid[x, y].GetComponent<GridCell>() == null){
-                    Debug.LogError("No component Found");
-                }
+                gameGrid[x, y].gameObject.name = "Grid Space ( X: " + (x * gridSpaceSize/10).ToString() + " , Y: " + y.ToString() + ")";
             }
         }
     }
 
-    // get the grid position from teh world position
+    // get the grid position from the world position
     public Vector2Int GetGridPosFromWorld(Vector3 worldPosition)
     {
         //gets the next lowest integer
-        int x = Mathf.FloorToInt(worldPosition.x / GridSpaceSize / 10);
-        int y = Mathf.FloorToInt(worldPosition.z / GridSpaceSize / 10);
+        int x = Mathf.FloorToInt(worldPosition.x / gridSpaceSize / 10);
+        int y = Mathf.FloorToInt(worldPosition.z / gridSpaceSize / 10);
 
     //cant go above the width or height
         x = Mathf.Clamp(x, 0, width);
@@ -64,8 +60,8 @@ public class Game_Grid : MonoBehaviour
     // gets the world position relative to grid position
     public Vector3 GetWorldPosFromGridPos(Vector2Int gridPos)
     {
-        float x = gridPos.x * GridSpaceSize / 10;
-        float y = gridPos.y * GridSpaceSize / 10;
+        float x = gridPos.x * gridSpaceSize / 10;
+        float y = gridPos.y * gridSpaceSize / 10;
         
         return new Vector3(x, 0 , y);
     }

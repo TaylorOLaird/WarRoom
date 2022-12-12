@@ -1,54 +1,74 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class TileScript : MonoBehaviour
 {
-    GameManager gameManager;
+    // ray gets shot out of particular point
     Ray ray;
-    //we can see what we hit
+    public InputActionProperty triggerButton;
+    public InputActionProperty buttonA;
+    public InputActionProperty buttonB;
+
+    //position of what it hits
     RaycastHit hit;
-    private bool missleHit = false;
+    GameManager gameManager;
+    private bool missileHit = false;
     Color32[] hitColor = new Color32[2];
 
-    // Start is called before the first frame update
     void Start()
     {
-        //each tile will grasb the game manager
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-
-            
+        // hitColor[0] = gameObject.GetComponent<MeshRenderer>().material.color;
+        // hitColor[1] = gameObject.GetComponent<MeshRenderer>().material.color;
     }
 
-    // Update is called once per frame
-    public void Placement()
+    void Update()
     {
-        // get position of ray from camera to mouse
-        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        
-        if(Physics.Raycast(ray, out hit)){
-            if(Input.GetMouseButtonDown(0) && hit.collider.gameObject.name == gameObject.name){
-
-                if(missleHit == false){
-                    gameManager.TileClicked(hit.collider.gameObject);
+           
+        // get value of button push
+        // can put bool for yes or no
+        // can use float for how much the button is pressed
+        float triggerValue = triggerButton.action.ReadValue<float>();
+        // handAnimator.SetFloat("Trigger", triggerValue);
+        if(triggerValue > 0.5f)
+        {
+            if(Physics.Raycast(ray, out hit))
+            {
+                if(hit.collider.gameObject.name == gameObject.name)
+                {
+                    if(missileHit == false)
+                    {
+                        gameManager.TileClicked(hit.collider.gameObject);
+                    }
                 }
-
-                // //if the tile is not occupied
-                // if(!gameManager.gridArray[hit.transform.GetComponent<GridCell>().GetPosition().x, hit.transform.GetComponent<GridCell>().GetPosition().y].isOccupied){
-                //     //place the object
-                //     gameManager.gridArray[hit.transform.GetComponent<GridCell>().GetPosition().x, hit.transform.GetComponent<GridCell>().GetPosition().y].objectInThisSpace = Instantiate(gameManager.objectToPlace, hit.transform.position, Quaternion.identity);
-                //     //set the tile to occupied
-                //     gameManager.gridArray[hit.transform.GetComponent<GridCell>().GetPosition().x, hit.transform.GetComponent<GridCell>().GetPosition().y].isOccupied = true;
-                //     //set the tile to the color of the object
-                //     hitColor[0] = gameManager.objectToPlace.GetComponent<Renderer>().material.color;
-                //     hitColor[1] = gameManager.objectToPlace.GetComponent<Renderer>().material.color;
-                //     hitColor[1].a = 255;
-                //     hit.transform.GetComponent<MeshRenderer>().materials[0].color = hitColor[0];
-                //     hit.transform.GetComponent<MeshRenderer>().materials[1].color = hitColor[1];
-                // }
-
             }
         }
-        
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Missile"))
+        {
+            missileHit = true;
+        }
+        else if (collision.gameObject.CompareTag("EnemyMissile"))
+        {
+            hitColor[0] = new Color32(38, 57, 76, 255);
+            GetComponent<Renderer>().material.color = hitColor[0];
+        }
+                
+    }
+
+    public void SetTileColor(int index, Color32 color)
+    {
+        hitColor[index] = color;
+    }
+
+    public void SwitchColors(int colorIndex)
+    {
+        GetComponent<Renderer>().material.color = hitColor[colorIndex];
     }
 }

@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class CreateShip : MonoBehaviour
 {
-
     public GameObject shipPrefab;
 
-    
-    // Update is called once per frame
-    public void onClick()
+    public void Create()
     {
-        Instantiate(shipPrefab, transform.position, Quaternion.identity);
-
+        Instantiate(shipPrefab, transform.position, Quaternion.identity); 
     }
+
 }

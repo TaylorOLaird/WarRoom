@@ -7,6 +7,7 @@ public class GridCell : MonoBehaviour
 
     private int posX;
     private int posY;
+    public GameObject tileCell;
 
     //saves a reference to the gameobject that gets placed on this cell
     public GameObject objectInThisSpace = null;
@@ -27,5 +28,11 @@ public class GridCell : MonoBehaviour
     public Vector2 GetPosition()
     {
         return new Vector2Int(posX, posY);
+    }
+
+    // function that changes the color of the grid space to a light red
+    public void SetColor(Color32 color)
+    {
+        tileCell.GetComponent<Renderer>().material.color = color;
     }
 }

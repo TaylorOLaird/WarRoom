@@ -17,11 +17,11 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GridCell cellMouseIsOver = isMouseOverAGridSpace();
-        if(cellMouseIsOver != null)
+        GridCell cellRayIsOver = isRayOverAGridSpace();
+        if(cellRayIsOver != null)
         {
             if(Input.GetMouseButtonDown(0)){
-                cellMouseIsOver.GetComponentInChildren<SpriteRenderer>().material.color = Color.green;
+                cellRayIsOver.GetComponentInChildren<SpriteRenderer>().material.color = Color.green;
 
             }
         }
@@ -29,7 +29,7 @@ public class InputManager : MonoBehaviour
 
     // returns the grid cell if tghe mouse is over it or null if not
 
-    private GridCell isMouseOverAGridSpace()
+    private GridCell isRayOverAGridSpace()
     {
         //ray cast to camera through mouse position
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);

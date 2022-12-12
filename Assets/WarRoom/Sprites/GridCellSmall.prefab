@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6046713522126980421}
-  - component: {fileID: -8107091501853157467}
+  - component: {fileID: 1427024120573617303}
+  - component: {fileID: -6174774536378480502}
   m_Layer: 0
   m_Name: GridCellSmall
   m_TagString: Untagged
@@ -33,7 +34,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-8107091501853157467
+--- !u!114 &1427024120573617303
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,8 +46,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a47cafb69bbb61488036126d7488caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileCell: {fileID: 4459609260513161811}
   objectInThisSpace: {fileID: 0}
   isOccupied: 0
+--- !u!114 &-6174774536378480502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4459609260513161811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8924062df89a6bc42a92f08ae7d126cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Trigger Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: aca926a5-0c36-4f0e-9535-e132a3d8b7e9
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  buttonA:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Button A
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: cdb1a12b-2813-4a6d-8eb2-06790c943330
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  buttonB:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Button B
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ae60c91d-5e72-4b5a-99e3-991400ee0bfb
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
 --- !u!1001 &5603006385095728620
 PrefabInstance:
   m_ObjectHideFlags: 0
